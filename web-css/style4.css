@@ -1,0 +1,76 @@
+#layout{
+	background-color:white;
+	height: 900px;
+	width: auto;
+	margin-top: -25px;
+}
+#banner{
+	background-color: rgb(7, 73, 69);
+	height: 200px;
+	width: auto;
+    
+}
+#menu{
+	background-color: rgb(66, 157, 241);
+	height: 80px;
+	width:auto;
+
+	
+}
+#content{
+	background-color: rgb(7, 73, 69);
+	height: 540px;
+	width: auto;
+	margin-top: -20px;
+
+}
+#footer{
+	background-color: rgb(2, 112, 112);
+	height: 220px;
+	width: auto;
+	
+}
+.dropdown{
+	position: relative;
+	display: inline-block;
+    width: 80px;
+    
+}
+.dropdown:hover .dropbtn{
+	background-color: rgb(165, 236, 230);
+	
+}
+.dropdown:hover .dropdown_content{
+	display: block;
+}
+.dropdown_content a{
+	display: block;
+    text-decoration: none;
+
+
+}
+.dropdown_content{
+	display: none;
+	position: absolute;
+	width: 120px;
+	background-color: rgb(5, 235, 120);
+	text-decoration: none;
+}
+.dropbtn{
+	padding: 10px;
+	font-size: 16px;
+	border: none;
+	cursor: progress;
+    background-color: rgb(66, 157, 241); 
+	break-inside: avoid;
+	
+
+    
+    
+    
+}
+.dropdown_content a:hover{
+	background-color: rgb(236, 247, 252);
+}
+
+
